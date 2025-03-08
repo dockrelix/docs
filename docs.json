@@ -4,7 +4,7 @@
   "theme": "willow",
   "colors": {
     "primary": "#393231",
-    "light": "#fff",
+    "light": "#F0EEED",
     "dark": "#393231"
   },
   "favicon": "/favicon.svg",
