@@ -1,17 +1,30 @@
 ---
 title: "Introduction"
 description: "Welcome to the Dockrelix Documentation"
-'og:image': "/images/hero.png"
+"og:image": "/images/hero.png"
 ---
 
-![dockrelix banner](/images/hero.png)
+<img
+  className="block dark:hidden"
+  src="/images/hero-light.png"
+  alt="Hero Light"
+/>
+<img
+  className="hidden dark:block"
+  src="/images/hero-dark.png"
+  alt="Hero Dark"
+/>
 
 ## Setting up
 
 The first step to world-class Docker swarm management is setting up Dockrelix.
 
 <CardGroup cols={1}>
-  <Card title="Install Dockrelix" icon="download" href="https://mintlify.com/docs/quickstart">
+  <Card
+    title="Install Dockrelix"
+    icon="download"
+    href="https://mintlify.com/docs/quickstart"
+  >
     Get Dockrelix installed and set it up faster than you can think
   </Card>
 </CardGroup>
